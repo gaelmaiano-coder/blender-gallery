@@ -1,1 +1,94 @@
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie 3D - Portfolio Blender</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts pour une typographie moderne -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- En-tête de la galerie -->
+    <header class="portfolio-header">
+        <h1>Mon Portfolio Blender</h1>
+        <p>Rendus 3D, modélisations hard-surface et packshots produits</p>
+    </header>
+
+    <!-- Grille de la galerie -->
+    <main class="gallery-container">
+        
+        <!-- Élément 1 : Pot cosmétique -->
+        <div class="gallery-item">
+            <a href="#img1">
+                <img src="lan2.jpg" alt="Pot cosmétique texturé bleu et couvercle noir">
+                <div class="overlay">
+                    <span>Voir le rendu</span>
+                </div>
+            </a>
+        </div>
+
+        <!-- Élément 2 : Flacon sur fond bleu -->
+        <div class="gallery-item">
+            <a href="#img2">
+                <img src="flacon.jpg" alt="Flacon minimaliste sur fond bleu studio">
+                <div class="overlay">
+                    <span>Voir le rendu</span>
+                </div>
+            </a>
+        </div>
+
+        <!-- Élément 3 : Flacon bordeaux -->
+        <div class="gallery-item">
+            <a href="#img3">
+                <img src="flacon3.jpg" alt="Flacon à facettes bordeaux et bouchon noir">
+                <div class="overlay">
+                    <span>Voir le rendu</span>
+                </div>
+            </a>
+        </div>
+
+        <!-- Élément 4 : Smartphone / Tablette -->
+        <div class="gallery-item">
+            <a href="#img4">
+                <img src="tel.jpg" alt="Modélisation de smartphone sur fond noir">
+                <div class="overlay">
+                    <span>Voir le rendu</span>
+                </div>
+            </a>
+        </div>
+
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="portfolio-footer">
+        <p>Propulsé par GitHub Pages &bull; Conécu sous Blender</p>
+    </footer>
+
+    <!-- LIGHTBOX : Affichage plein écran au clic -->
+    <div id="img1" class="lightbox">
+        <a href="#" class="close">&times;</a>
+        <img src="lan2.jpg" alt="Pot cosmétique texturé bleu">
+    </div>
+
+    <div id="img2" class="lightbox">
+        <a href="#" class="close">&times;</a>
+        <img src="flacon.jpg" alt="Flacon minimaliste sur fond bleu studio">
+    </div>
+
+    <div id="img3" class="lightbox">
+        <a href="#" class="close">&times;</a>
+        <img src="flacon3.jpg" alt="Flacon à facettes bordeaux et bouchon noir">
+    </div>
+
+    <div id="img4" class="lightbox">
+        <a href="#" class="close">&times;</a>
+        <img src="tel.jpg" alt="Modélisation de smartphone sur fond noir">
+    </div>
+
+</body>
+</html>
